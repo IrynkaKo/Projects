@@ -1,0 +1,373 @@
+$color-background-primary : #2EBAEB;
+$color-background-secondary :#F2F2F2;
+$color-background-third : #FFFFFF;
+$color-background-fourth:#94D3EA;  
+$color-background-fifth : #2EBAEB;
+$color-background-sixth: #95D4EB;
+$text-main-color : #2E8CAD;
+$text-secondary-color :#000000;
+$text-additional-color :white;
+$text-color-third : #4F4F4F;
+
+$border-main :#94D3EA 3px solid;
+$border-radius-main :61px;
+$font-style :normal;
+
+
+$font-family-main :'Mitr',sans-serif;
+$font-family-heading :'Roboto',sans-serif;
+
+
+
+
+
+
+.picture1 {
+   width: 1903px;
+   height: 1233px;
+}
+
+.curves {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 1376px;
+    height: 965px;
+    margin-top: 1.75rem;
+}
+
+.sign {
+    position: absolute;
+    width: 396px;
+    height: 68px;
+    left: 402px;
+    top: 78px;
+    z-index: 2;
+}
+
+
+.heading {
+    z-index: 3;
+    position: absolute;
+    width: 446px;
+    height: 160px;
+    left: 416px;
+    top: 196px;
+    font-family: $font-family-main;
+    font-style: $font-style; 
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    color: $text-main-color;
+
+
+}
+
+.paragraph1 { 
+    z-index: 3;
+    position: absolute;
+    width: 466px;
+    height: 96px;
+    left: 416px;
+    top: 386px;
+    font-family: $font-family-heading;
+    font-style: $font-style;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+     color: $text-secondary-color;
+
+}
+
+ul {
+    position: absolute;
+    width: 115px;
+    height: 30px;
+    left: 380px;
+    top: 530px;
+    z-index: 3;
+    list-style: none;
+    image-rendering: pixelated;
+
+}
+
+.btnhelp {
+     z-index: 3;
+     position: absolute;
+     width: 164px;
+     height: 54px;
+     left: 409px;
+     top: 678px;
+     background-color: $color-background-primary;
+     color: $text-additional-color;
+     border-radius: 30px;
+     border: none;
+    }
+
+     .btnhelp:hover {
+        background-color: $color-background-secondary;
+        color: $text-main-color;
+        border: $border-main;
+        transition:3s ;
+     }
+
+
+.form {
+    font-family: $font-family-main;
+    font-style: $font-style;
+    z-index: 3;
+    position: absolute;
+    width: 480px;
+    height: 465px;
+    left: 1072px;
+    top: 250px;
+    background-color:$color-background-third;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+    
+    
+}
+
+.imput1 {
+    background-color: $color-background-fourth;
+    border-radius: $border-radius-main;
+    width: 374px;
+    height: 56px;
+    border: none;
+    box-sizing: border-box;
+    padding: 20px;
+   
+
+
+}
+
+.imput2{
+   background-color: $color-background-fourth;
+   border-radius: $border-radius-main;
+   width: 374px;
+   height: 56px;
+   border: none;
+   box-sizing: border-box;
+   padding: 20px;
+}
+ 
+.imput3{
+    background-color: $color-background-fourth;
+    border-radius: $border-radius-main;
+    width: 374px;
+    height: 56px;
+    border: none;
+    box-sizing: border-box;
+    padding: 20px;
+ }
+ 
+
+.headingform {
+font-family: $font-family-main;
+font-style: $font-style;
+font-weight: 600;
+font-size: 48px;
+line-height: 56px;
+align-items: center;
+text-align: center;
+color: $text-main-color;
+margin-top: 40px;
+}
+
+.btn {
+    border-radius: 62px;
+    width: 168px;
+    height: 56px;
+    border: $border-main;
+    background-color: $color-background-third;
+    color: $text-main-color;
+}
+
+.btn:hover {
+    background-color: $color-background-fifth;
+    color: $text-additional-color;
+    transition:3s ;
+ }
+
+.aboutme{
+    width: 221px;
+    height: 56px;
+    font-family: $font-family-main;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color:$text-main-color;
+
+}
+
+.aboutcentre {
+    width: 1903px;
+    display: flex;
+    justify-content: center;
+  
+
+}
+
+
+ 
+.parent{
+    position: relative;
+    display: flex;
+    width: 1903px;
+    height: 430px;
+    justify-content: center;
+   
+
+  }
+  
+  .child {
+    padding: 15px;
+    line-height: 15px;
+    width: 330px;
+    height: 80px;
+    border: none;
+    font-family: $font-family-heading;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: $text-color-third;
+    
+ }
+  
+
+.number {
+    
+    backface-visibility: hidden;
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+.btnhelp1 {
+    position: absolute;
+    z-index: 2;
+    top: 320px;
+    left: 870px;
+    width: 164px;
+    height: 54px;
+    background-color:$color-background-primary;
+    color: $text-additional-color;
+    border-radius: 30px;
+    border: none;
+}
+
+.btnhelp1:hover {
+    background-color: $color-background-secondary;
+    color: $text-main-color;
+    border: $border-main;
+    transition:3s ;
+ }
+
+
+.servises {
+position: relative;
+width: 1903px;
+height: 760px;
+background-color: $color-background-secondary;
+   
+
+}
+
+
+.aboutservises {
+    width: 206px;
+    height: 56px;
+    font-family: $font-family-main;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: $text-main-color;
+}
+
+
+    
+
+.picserv {
+    width: 300px;
+    height: 450px;
+    backface-visibility: hidden;
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+
+.btnhelp2 {
+    position: absolute;
+    z-index: 2;
+    top: 510px;
+    left: 870px;
+    width: 164px;
+    height: 54px;
+    background-color: $color-background-primary;
+    color: $text-additional-color;
+    border-radius: 30px;
+    border: none;
+}
+
+.btnhelp2:hover {
+    background-color: $color-background-secondary;
+    color: $text-main-color;
+    border: $border-main;
+    transition:3s ;
+ }
+
+
+.thelast {
+position: relative;
+width: 1903px;
+height: 766px;
+background: $color-background-sixth;
+}
+
+.footer {
+width: 1903px;
+height: 92px;
+background: #47626B;
+}
+
+.tlp {
+width: 577px;
+height: 233px;
+backface-visibility: hidden;
+image-rendering: optimizeQuality;
+}
+
+.parent1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorbtn {
+    width: 221px;
+    height: 56px;
+    font-family: $font-family-main;
+    font-style: $font-style;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: $text-additional-color;
+}
+
+.colorbtn:hover {
+    background-color: $color-background-secondary;
+    color: $text-main-color;
+    border: $border-main;
+    transition:3s ;
+ }
+
