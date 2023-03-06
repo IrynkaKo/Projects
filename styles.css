@@ -283,25 +283,16 @@ ul {
   background: #47626B;
 }
 
-.tlp {
-  width: 577px;
-  height: 233px;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  image-rendering: optimizeQuality;
-}
-
 .parent1 {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .colorbtn {
   width: 221px;
   height: 56px;
+  margin-right: 80px;
   font-family: "Mitr", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -310,9 +301,227 @@ ul {
   color: white;
 }
 
-.colorbtn:hover {
+.btnhelp3 {
+  position: absolute;
+  z-index: 2;
+  top: 650px;
+  left: 870px;
+  width: 164px;
+  height: 54px;
+  background-color: #2EBAEB;
+  color: white;
+  border-radius: 30px;
+  border: none;
+}
+
+.btnhelp3:hover {
   background-color: #F2F2F2;
   color: #2E8CAD;
   border: #94D3EA 3px solid;
   transition: 3s;
+}
+
+.last {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width: 460px;
+  height: 183px;
+  background: #FFFFFF;
+  box-shadow: 0px 20px 20px rgba(129, 209, 255, 0.2);
+  border-radius: 40px;
+}
+
+.quatro {
+  display: flex;
+  justify-content: center;
+}
+
+.tlp {
+  top: 10px;
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.text1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #19435A;
+  margin-top: -17px;
+}
+
+.courtny {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #50B2EA;
+  margin-left: 5px;
+}
+
+@media all and (max-width: 1024px) {
+  .picture1 {
+    width: 1024px;
+    height: 768px;
+  }
+  .curves {
+    width: 787px;
+    height: 565px;
+    margin-top: 0.95rem;
+  }
+  .sign {
+    width: 268px;
+    height: 44px;
+    left: 74px;
+    top: 52px;
+  }
+  .heading {
+    width: 346px;
+    height: 90px;
+    left: 74px;
+    top: 110px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 52px;
+  }
+  .paragraph1 {
+    width: 410px;
+    height: 60px;
+    left: 74px;
+    top: 246px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  ul {
+    width: 115px;
+    height: 30px;
+    left: 30px;
+    top: 350px;
+  }
+  .btnhelp {
+    width: 120px;
+    height: 44px;
+    left: 78px;
+    top: 486px;
+  }
+  .form {
+    width: 330px;
+    height: 315px;
+    line-height: 10px;
+    left: 590px;
+    top: 125px;
+  }
+  .imput1 {
+    width: 254px;
+    height: 30px;
+  }
+  .imput2 {
+    width: 254px;
+    height: 30px;
+  }
+  .imput3 {
+    width: 254px;
+    height: 30px;
+  }
+  .headingform {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 56px;
+    margin-top: 40px;
+  }
+  .btn {
+    border-radius: 62px;
+    width: 129px;
+    height: 36px;
+  }
+  .aboutme {
+    font-size: 32px;
+    margin-left: 60px;
+  }
+  .aboutcentre {
+    width: 1024px;
+  }
+  .parent {
+    width: 1024px;
+    height: 430px;
+  }
+  .child {
+    line-height: 16px;
+    width: 280px;
+    font-size: 12px;
+  }
+  .number {
+    margin-bottom: -18px;
+  }
+  .btnhelp1 {
+    top: 320px;
+    left: 438px;
+    width: 130px;
+    height: 42px;
+  }
+  .servises {
+    width: 1024px;
+    height: 720px;
+  }
+  .aboutservises {
+    font-size: 32px;
+    margin-left: 60px;
+  }
+  .picserv {
+    width: 270px;
+    height: 420px;
+    margin-left: 10px;
+    margin-bottom: -10px;
+  }
+  .btnhelp2 {
+    top: 510px;
+    left: 438px;
+    width: 130px;
+    height: 42px;
+  }
+  .thelast {
+    width: 1024px;
+    height: 700px;
+  }
+  .footer {
+    width: 1024px;
+    height: 92px;
+    background: #47626B;
+  }
+  .colorbtn {
+    width: 221px;
+    height: 56px;
+    margin-right: 40px;
+    font-size: 36px;
+    line-height: 56px;
+  }
+  .btnhelp3 {
+    top: 610px;
+    left: 438px;
+    width: 130px;
+    height: 42px;
+  }
+  .last {
+    width: 360px;
+    height: 160px;
+    padding: 20px;
+  }
+  .text1 {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .tlp {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
 }/*# sourceMappingURL=styles.css.map */
